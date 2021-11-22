@@ -4,6 +4,8 @@ A* search implementation of global_planner for turtlebot3_navigation package.
 ## Opening Instructions
 This project was done on ROS melodic running on Linux 18.04 LTS on WSL2 for windows.
 
+#### **THE FILES INCLUDED ARE THE `turtlebot3_navigation` folder of the `turtlebot3` package.**
+
 ## Installation
 * Install suitable ROS distro on Linux, the details to which can be found here: http://wiki.ros.org/ROS/Installation
 * After a successful installation of ROS proceed to creating a workspace (preferably catkin)
