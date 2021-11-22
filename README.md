@@ -32,3 +32,10 @@ This project was done on ROS melodic running on Linux 18.04 LTS on WSL2 for wind
 * The regular NavFn global_planner uses the dijkstra algorithm, the regular navigation launch file is in the turtlebot3_navigation folder and can be run using the command `roslaunch turtlebot3_navigation turtlebot3_navigation.launch map_file:=/home/victorkash/tb3_house_map.yaml`
 * However the A* search implementation can be implemented by using separate `move_base.launch` file and different set of parameters as included in this repository.
   * A new set of global parameters files `GlobalPlanner` that has been included in this file allows us to switch from `NavFn` global planner to `GlobalPlanner` `gobal_planner`.
+
+![image](https://user-images.githubusercontent.com/20281211/142852677-dbd31348-ba35-4011-866d-8551ad36b9c4.png)
+![image](https://user-images.githubusercontent.com/20281211/142852734-9c14e6d3-afab-4358-aecb-6a24aff9c5b9.png)
+![image](https://user-images.githubusercontent.com/20281211/142852798-954a190c-557e-4f14-87ac-f8692ea4fcff.png)
+
+
+
